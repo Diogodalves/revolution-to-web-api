@@ -17,7 +17,7 @@ pip install tornado
 ```
 
 ## Examples
-Don't forget to run Python Script in an external console to prevent port comunication issues.
+Don't forget to run your Python Script in an external console to prevent port comunication issues.
 * **Python**
 ```python
 from tornado import websocket, web, ioloop
