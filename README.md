@@ -164,3 +164,5 @@ if __name__ == '__main__':
 </body>
 </html>
 ```
+## Documentation
+[BITalino](http://bitalino.com/pyAPI/) - http://bitalino.com/pyAPI/
