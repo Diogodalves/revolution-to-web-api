@@ -1,4 +1,4 @@
-# revolution-to-web-api
+# BITalino (r)evolution-to-web-api
 The BITalino (r)evolution to web API provides a way to stream data from your device to a web page using your main Python distribution.
 
 ## Dependencies
