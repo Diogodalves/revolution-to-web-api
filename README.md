@@ -7,7 +7,6 @@ The BITalino (r)evolution to web API provides a way to stream data from your dev
 * [Numpy](https://pypi.org/project/numpy/)
 * [pySerial](https://pypi.org/project/pyserial/)
 * [Pybluez](https://pypi.org/project/PyBluez/) (Not needed for Mac Os)
-* [BITalino](http://bitalino.com/pyAPI/)
 
 ## Installation
 * Make sure you've successfully followed these steps to install Numpy, pySerial, Pybluez and BITalino dependencies https://github.com/BITalinoWorld/revolution-python-api
