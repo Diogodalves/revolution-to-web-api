@@ -2,7 +2,7 @@
 The BITalino (r)evolution to web API provides a way to stream data from your device to a web page using your main Python distribution.
 
 ## Dependencies
-* [Python > 3](https://www.python.org/downloads/)
+* [Python > 3](https://www.python.org/downloads/) or [Anaconda](https://www.anaconda.com/distribution/)
 * [Tornado](https://www.tornadoweb.org/en/stable/)
 * [Numpy](https://pypi.org/project/numpy/)
 * [pySerial](https://pypi.org/project/pyserial/)
