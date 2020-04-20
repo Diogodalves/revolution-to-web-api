@@ -115,7 +115,7 @@ if __name__ == '__main__':
     mainLoop = ioloop.IOLoop.instance().start()
 ```
 
-* **Html**
+* **HTML**
 ```html
 <!DOCTYPE html>
 <html>
