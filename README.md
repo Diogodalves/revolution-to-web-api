@@ -17,7 +17,7 @@ pip install tornado
 ```
 
 ## Examples
-Don't forget to run your Python Script in an external console to prevent port comunication issues.
+*Don't forget to run your Python Script in an external console to prevent port comunication issues.
 * **Python**
 ```python
 from tornado import websocket, web, ioloop
@@ -27,15 +27,11 @@ import numpy
 from bitalino import *
 import asyncio
 
-# The macAddress variable on Windows can be "XX:XX:XX:XX:XX:XX" or "COMX"
-# while on Mac OS can be "/dev/tty.BITalino-XX-XX-DevB" for devices ending with the last 4 digits of the MAC address or "/dev/tty.BITalino-DevB" for the remaining
 device = "00:00:00:00:00:00"
-#Configure your device
 labels = ["nSeq", "I1", "I2", "O1", "O2", "A1", "A2", "A3", "A4", "A5", "A6"]
 sampling_rate = 100
 channels = [0,1,2,3,4,5]
 
-#Converts `data` from its native data type to a JSON-compatible `str`.
 def tostring(data):
     dtype=type(data).__name__
     if dtype=='ndarray':
@@ -116,7 +112,7 @@ if __name__ == '__main__':
 ```
 
 * **HTML**
-This example will get the message sent by the Python client, change the opacity of your web object and plot a graph based on the number of bits returned from your BITalino.
+*This example will get the message sent by the Python client, change the opacity of your web object and plot a graph based on the number of bits returned from your BITalino.
 ```html
 <!DOCTYPE html>
 <html>
