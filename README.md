@@ -116,6 +116,7 @@ if __name__ == '__main__':
 ```
 
 * **HTML**
+This example will get the message sent by the Python client, change the opacity of your web object and plot a graph based on the number of bits returned from your BITalino.
 ```html
 <!DOCTYPE html>
 <html>
