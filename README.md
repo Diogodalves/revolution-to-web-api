@@ -17,7 +17,7 @@ pip install tornado
 ```
 
 ## Examples
-*Don't forget to run your Python Script in an external console to prevent port comunication issues.
+Don't forget to run your Python Script in an external console to prevent port comunication issues.
 * **Python**
 ```python
 from tornado import websocket, web, ioloop
@@ -112,7 +112,7 @@ if __name__ == '__main__':
 ```
 
 * **HTML**
-*This example will get the message sent by the Python client, change the opacity of your web object and plot a graph based on the number of bits returned from your BITalino.
+ This example will get the message sent by the Python client, change the opacity of your web object and plot a graph based on the number of bits returned from your BITalino.
 ```html
 <!DOCTYPE html>
 <html>
